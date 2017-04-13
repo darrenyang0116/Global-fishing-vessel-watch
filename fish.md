@@ -1,3 +1,3 @@
 ## good
 
-(good)[readme.md]
+(good)[README.md]
