@@ -2,7 +2,7 @@
 
 In order to raise the awareness of global illegal fishing activities and provide evidence for law enforcement to prevent the violation of fishing regulation, this data visualization project dedicates to revealing the near-real time records of fishing vessel entering No-Take Marine Protected Areas and those vessels' country of origin.
 
-The website enables users to look up suspicious fishing vessels by countries, including their own, and track the record of vessel violation.
+[The website](http://www.chyangdesign.com/) enables users to look up suspicious fishing vessels by countries, including their own, and track the record of vessel violation.
 
 ## What is different between existing tools and this website?
 
