@@ -10,4 +10,4 @@ This map shows the number of suspicious operationg in No-take zone in a given pe
 
 ## Animations
 This animation shows user selecting a country and see its fishing vessels operating in No-take zone in a given period of time 
-![Animation1](blob:http://imgur.com/db4f9546-86de-4542-90cb-ca2c17760a43)
+![Animation1](blob:http://imgur.com/db4f9546-86de-4542-90cb-ca2c17760a43.gif)
