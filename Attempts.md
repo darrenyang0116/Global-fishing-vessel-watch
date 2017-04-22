@@ -2,7 +2,7 @@
 It is always helpful to sckech out the data-visualization first before building the whole website. I created several static drawings by Illustrator and two animations by Hype to show how I envision the website's look and features.
 
 ## Static maps
-[Map1](https://github.com/darrenyang0116/Global-fishing-vessel-watch.wiki.git)
+![Map1](https://github.com/darrenyang0116/Global-fishing-vessel-watch.wiki.git)
 
 
 ## Animations
