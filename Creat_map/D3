@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Realtime Map</title>
+
+	<link href="../css/grid.css" rel="stylesheet">
+
+	<style>
+		.country:hover{fill:white; opacity:0.8; stroke:#fff; stroke-width:.3px;}
+		.country{fill:#3a80b6; opacity:0.4; stroke:#fff; stroke-width:.3px;}
+		.grat{fill:none; stroke:#fff; stroke-width:.1px;}
+		#sphere{fill:#051944; stoke:#fff; stroke-width:.2px;}	
+		.label{fill:lightgrey; font-size:12px; opacity:0;}
+		.label:hover{fill:lightgrey; font-size:12px; opacity:1;} 
+		text.tooltip {fill:#eee; font-family: menlo; font-size: 10px;}	
+		a{color:#afafaf;}
+		a:hover {color: #262626;}
+		a{text-decoration:none;}
+	</style>
+		
+
+</head>
+<body>
+    
+	
+	
+	<div class="row" id="header-container">
+			<div class="col four" id="pageTitle">Fishing Watch</div>
+			<div class="col four"> </div>
+			<div class="col one h2"><a href="about.html">About</a></div>
+			<div class="col one h2"><a href="http://www.chyangdesign.com/map/">Map</a></div>
+			<div class="col one h2"><a href="https://github.com/darrenyang0116/Global-fishing-vessel-watch">Tutorial</a></div>
+			<div class="col one h2"><a href="http://www.chyangdesign.com">Blog</a></div>
+	</div>
+	
+	<div class="row" id="content-map">
+	<button onclick="drawVessel()">Click!!</button>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script>
+		var width = 1200;
+		var height = 700;
+
+		
+//scale area (remapping functions), must use [] as an array
+var x = d3.scaleLinear().domain([-180,180]).range([0, width]);
+var y = d3.scaleLinear().domain([-90,90]).range([height, 0]);
+
+//This is my map projection, which is kind of like a scale functino above but just for 2 numbers
+var projection = d3.geoEquirectangular()
+.scale(200)
+.rotate([0,0,0])
+.translate([width/2,height/2]);
+
+//This is path generator, like a scale, but for curves! Like illustrator, or like a shape generator that generates svg path data string
+var path = d3.geoPath().projection(projection);
+
+//enable user to zoom map
+var zoom = d3.zoom()
+			.scaleExtent([.95,3])//set a boundary to zoom to 12 times bigger
+			.on("zoom", zoomed)//run a function call "zoomed", define zoomed function in the end of the line
+			;
+
+
+//draw svg container 
+var svg = d3.select("#content-map") //select("body") means whole browser, I only want to select content-map in my CSS grid setting
+.append("svg")
+.attr("width", width)
+.attr("height", height)
+.style("background-color", "#fff")
+;
+
+//hey svg container! pay attention when zoom
+svg.call(zoom);
+
+//g stands for gounp, add a group 
+var g = d3.select("svg")
+			.append("g")
+
+//draw ocean shape
+g.append("path")
+.datum({type:"Sphere"})//use a single dataset called Sphere, provided by d3
+.attr("id", "sphere")//style ocean color above
+.attr("d", path)// use path generator to build it
+;
+
+//draw worldmap
+d3.json("worldmap.json", function(error, geojson) {
+
+
+	   g.selectAll(path.country)
+		    .data(geojson.features)
+		    .enter()
+		    .append("path")
+		    .attr("d", path)
+		    .classed("country", true)
+		    ;
+	;
+
+	var graticule = d3.geoGraticule().step([50,50]);//step() sets grid. 10 degree each line 
+	
+	g.append("path")
+	.datum(graticule) //datum means single value of data, the data is coming from graticule
+	.attr("d", path) //path refers to path generator we created! Ask path generator to draw
+	.classed("grat", true)
+	;
+});
