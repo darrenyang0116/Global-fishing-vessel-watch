@@ -1,5 +1,5 @@
 In this part, we will walk step-by-step how to create a map and adjust the scale and projection.
-* [Download map](Download_map.md)
+* [Source shapefile](Source_shapefile.md)
 
 * [Adjust scale and projection with D3]
 
