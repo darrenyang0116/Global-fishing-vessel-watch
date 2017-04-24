@@ -3,4 +3,4 @@ In this part, we will walk step-by-step how to create a map and adjust the scale
 
 * [Adjust scale and projection with D3](D3.md)
 
-* [Style your map] 
+* [Style your map](Style.md) 
