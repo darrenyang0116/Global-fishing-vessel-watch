@@ -11,4 +11,4 @@ Now we want to add color to countries, oceans and graticules. Let's set up the s
 <head>
 </pre>
 
-[worldmap with style](http://i.imgur.com/mW0OMrK.png)
+![worldmap with style](http://i.imgur.com/mW0OMrK.png)
