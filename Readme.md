@@ -1,5 +1,5 @@
 # Global-fishing-vessel-watch
-Track fishing vessel location on the ocean
+This is my tutorial on building a [website](www.chyangdesign.com) to monitor fishing vessel activity on the [No-take zones](http://www.protectplanetocean.org/introduction/introbox/glossary/glossary/introduction-item.html#notake). 
 
 1. [Intent](Intent.md)
 2. [Sketch](Quick_sketches.md)
