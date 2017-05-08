@@ -45,4 +45,4 @@ Now we want to add color to countries, oceans and graticules. Let's set up the s
 ![worldmap with style](http://i.imgur.com/IKJQg1d.png)
 
 
-Because the worldmap is just a background information. High color contrast might become the dominant visual cue, which should be assigned to vessels. Therefore, I decided to go with Option 2. [Next step](No-take.md) is to add No-take Zone in our map.
+Because the worldmap is just a background information. High color contrast might become the dominant visual cue, which should be assigned to vessels. Therefore, I decided to go with Option 2. [Next step](No-take.md) is to add No-take Zone to our map.
