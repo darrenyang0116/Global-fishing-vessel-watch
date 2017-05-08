@@ -1,3 +1,5 @@
+## Choose data
+
 Here is a list of possible data candidates about vessel location:
 
 * [Global Fishing Watch source 1](http://globalfishingwatch.io/)
@@ -18,3 +20,5 @@ Ideally, I would like to use the dataset from [Marine Traffic](https://www.marin
 
 I ended up choosing [My Ship Tracking](http://www.myshiptracking.com/). This website provides certain amount of vessels ducking in the ports. Although this is not the most ideal dataset I was looking for, I can still use it to demonstrate how to build a website that visualizes the real-time vessel locations.
 ![My Ship Tracking](http://i.imgur.com/kOr0TJp.png)
+
+[Next step](Access_data.md), we will learn how to get access to data from My Ship Tracking.
