@@ -10,6 +10,16 @@ Now we want to add color to countries, oceans and graticules. Let's set up the s
 </style>
 <head>
 </pre>
-
-This is the style of our worldmap!
 ![worldmap with style](http://i.imgur.com/mW0OMrK.png)
+
+We can also try different color combination
+<pre>
+<head>
+<style>
+.country{fill:#0B121F; opacity:0.45; stroke:#203a53; stroke-width:1.5px;}
+#sphere{fill:#354f69;} 
+.grat{fill:none; stroke:#0B121F; stroke-width:.3px; opacity:.75;}  
+</style>
+<head>
+</pre>
+![worldmap with style](http://i.imgur.com/w2Y1L9d.png)
