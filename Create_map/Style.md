@@ -43,3 +43,6 @@ Now we want to add color to countries, oceans and graticules. Let's set up the s
 </pre>
 
 ![worldmap with style](http://i.imgur.com/IKJQg1d.png)
+
+
+I decided to go with Option 2. Next step is to add No-take Zone in our map.
