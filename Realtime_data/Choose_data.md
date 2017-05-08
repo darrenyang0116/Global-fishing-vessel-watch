@@ -6,7 +6,7 @@ Here is a list of possible data candidates about vessel location:
 * [My Ship Tracking](http://www.myshiptracking.com/)
 * [Fishing Vessel Finder](http://www.fao.org/figis/vrmf/finder/search/#.WRDlEonyu9Z)
 
-Ohter ocean datasets that are less relevant to vessel location.
+Other ocean datasets that are less relevant to vessel location.
 * [Ocean Health Index](http://www.oceanhealthindex.org/)
 * [Ocean Biogeographic Information System](http://www.iobis.org)
 
