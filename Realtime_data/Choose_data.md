@@ -11,3 +11,7 @@ Ohter ocean datasets that are less relevant to vessel location.
 * [Ocean Biogeographic Information System](http://www.iobis.org)
 
 
+Ideally, I would like to use the dataset from [Marine Traffic](https://www.marinetraffic.com/), because it provides the most data points among the candidates.
+![Marine Traffic](http://i.imgur.com/io9AhNT.jpg)
+
+
