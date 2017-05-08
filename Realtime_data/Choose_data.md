@@ -14,4 +14,8 @@ Ohter ocean datasets that are less relevant to vessel location.
 Ideally, I would like to use the dataset from [Marine Traffic](https://www.marinetraffic.com/), because it provides the most data points among the candidates.
 ![Marine Traffic](http://i.imgur.com/io9AhNT.jpg)
 
+However, it costs a lot of money if I need access to a completed set of data.  
+![Cost]http://i.imgur.com/Aud2nY3.png
 
+I ended up choosing [My Ship Tracking](http://www.myshiptracking.com/) which provides vessel locations ducking in the ports. Although this is not the most ideal dataset I was looking for, I can still use it to demonstrate how to build a website that visualizes the real-time vessel locations.
+![My Ship Tracking](http://i.imgur.com/kOr0TJp.png)
