@@ -10,6 +10,7 @@ Now we want to add color to countries, oceans and graticules. Let's set up the s
 </style>
 <head>
 </pre>
+
 ![worldmap with style](http://i.imgur.com/mW0OMrK.png)
 
 We can also try different color combination
@@ -22,4 +23,5 @@ We can also try different color combination
 </style>
 <head>
 </pre>
+
 ![worldmap with style](http://i.imgur.com/w2Y1L9d.png)
