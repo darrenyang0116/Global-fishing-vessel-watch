@@ -62,4 +62,4 @@ Add color to No-take zone.
 .noTakeZone{fill:#e85a71; opacity:.75;}
 </pre>
 
-[result](http://i.imgur.com/CRJzi6M.png)
+![result](http://i.imgur.com/CRJzi6M.png)
