@@ -1,7 +1,9 @@
 ## Style your map
 
 Now we want to add color to countries, oceans and graticules. Let's set up the style in html head section as below.
-Option 1
+
+
+## Option 1
 <pre>
 <head>
 <style>
@@ -14,7 +16,8 @@ Option 1
 
 ![worldmap with style](http://i.imgur.com/mW0OMrK.png)
 
-Option 2
+
+## Option 2
 <pre>
 <head>
 <style>
@@ -27,7 +30,8 @@ Option 2
 
 ![worldmap with style](http://i.imgur.com/w2Y1L9d.png)
 
-Option 3
+
+## Option 3
 <pre>
 <head>
 <style>
