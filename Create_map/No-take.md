@@ -60,7 +60,7 @@ Check out the No-take zone! The color is black as default setting.
 
 
 ## Style No-take Zone
-Black is not very appealing in the map. I changed different color to No-take zone. 
+Black is not very appealing in the map. I added different color in CSS style to make No-take zone looks more obvious. 
 <pre>
 .noTakeZone{fill:#e85a71; opacity:.75;}
 </pre>
