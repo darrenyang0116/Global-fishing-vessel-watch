@@ -4,3 +4,5 @@ In this part, we will walk step-by-step on how to create a map and adjust the sc
 * Step 2. [Adjust scale and projection with D3](D3.md)
 
 * Step 3. [Style your map](Style.md) 
+
+* Step 4. [Add No-take Zone](No-take.md)
