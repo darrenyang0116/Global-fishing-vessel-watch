@@ -55,11 +55,15 @@ tooltip.text(
 });
 
 </pre>
+Check out the No-take zone! The color is black as default setting. 
+![result 1](http://i.imgur.com/GluEpvA.png)
+
 
 ## Style No-take Zone
-Add color to No-take zone. 
+Black is not very appealing in the map. I changed different color to No-take zone. 
 <pre>
 .noTakeZone{fill:#e85a71; opacity:.75;}
 </pre>
+![result 2](http://i.imgur.com/CRJzi6M.png)
 
-![result](http://i.imgur.com/CRJzi6M.png)
+The next step is to add real-time vessel location to our map.
