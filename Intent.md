@@ -5,4 +5,4 @@ In order to raise the awareness of global illegal fishing activities and provide
 
 ## What is different between existing tools and this data-visualization website?
 
-While some website, like [Global Fishing Watch](http://globalfishingwatch.org/), has provided broad dataset of near-real time fishing vessel location on the ocean, this webiste solely focuses on data-visualization of suspicious fishing activity in No-take zone to help general audience monitoring illegal fishing activities. 
+While some websites, like [Global Fishing Watch](http://globalfishingwatch.org/), have provided broad dataset of near-real time fishing vessel location on the ocean, this webiste solely focuses on data-visualization of suspicious fishing activity in No-take zone to help general audience monitoring illegal fishing activities. 
