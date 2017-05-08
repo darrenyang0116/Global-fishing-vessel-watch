@@ -5,11 +5,12 @@ Here is a list of possible data candidates about vessel location:
 * [Marine Traffic](https://www.marinetraffic.com/), one of the major data source of Global Fishing Watch  
 * [My Ship Tracking](http://www.myshiptracking.com/)
 * [Fishing Vessel Finder](http://www.fao.org/figis/vrmf/finder/search/#.WRDlEonyu9Z)
-<br>
-<br>
+
 Ohter ocean datasets that are less relevant to vessel location.
 * [Ocean Health Index](http://www.oceanhealthindex.org/)
 * [Ocean Biogeographic Information System](http://www.iobis.org)
+
+<br>
 
 Ideally, I would like to use the dataset from [Marine Traffic](https://www.marinetraffic.com/), because it provides the most data points among the candidates. However, it costs a lot of money if I need access to a completed set of data.  
 ![Marine Traffic](http://i.imgur.com/io9AhNT.jpg)
