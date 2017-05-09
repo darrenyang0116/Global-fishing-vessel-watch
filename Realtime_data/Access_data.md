@@ -1,6 +1,6 @@
 In the [previous step](Choose_data.md), we choose [My Ship Tracking](http://www.myshiptracking.com/) to pull in our dataset. Now we need to get access to the dataset and use in our code.
 
-# Region setting
+## Region setting
 We can construct queries with a latlong bounding box, but it will return null if the bounding box exceeds ~20 degrees each of latitude and longitude. Let's use the west coast of USA for example.
 
 <pre>
@@ -75,6 +75,77 @@ var tooltipBoat = d3.select("svg")
 </pre>
 
 
-The orange(#e47a33) dots represent fishing vessel and green dots represent other types of vessel.
+The orange(#e47a33) dots represent fishing vessel and green(#018771) dots represent other types of vessel.
 ![North America](http://i.imgur.com/zlOYGiz.png)
 
+
+You can apply the region setting to different areas in the globe. I list some areas below:
+<pre>
+//East Coast of North America
+var ECminlat = 20;
+var ECmaxlat = 40;
+var ECminlon = -75;
+var ECmaxlon = -55;
+
+//South America
+var SAMminlat = -40;
+var SAMmaxlat = -30;
+var SAMminlon = -70;
+var SAMmaxlon = -50;
+
+//Brazil
+var BRminlat = 10;
+var BRmaxlat = -10;
+var BRminlon = -60;
+var BRmaxlon = -40;
+
+//East Asia
+var EAminlat = 20;
+var EAmaxlat = 40;
+var EAminlon = 110;
+var EAmaxlon = 130;
+
+//South East Asia
+var SEAminlat = -10;
+var SEAmaxlat = 10;
+var SEAminlon = 130;
+var SEAmaxlon = 150;
+
+
+//South Asia
+var SAminlat = 0;
+var SAmaxlat = 20;
+var SAminlon = 90;
+var SAmaxlon = 110;
+
+
+//Australia
+var AUminlat = -30;
+var AUmaxlat = -10;
+var AUminlon = 135;
+var AUmaxlon = 155;
+
+//South Europe
+var SEUminlat = 30;
+var SEUmaxlat = 40;
+var SEUminlon = 10;
+var SEUmaxlon = 20;
+
+//North Europe
+var NEUminlat = 50;
+var NEUmaxlat = 60;
+var NEUminlon = 10;
+var NEUmaxlon = 30;
+
+//West Africa
+var WFminlat = 20;
+var WFmaxlat = 40;
+var WFminlon = -30;
+var WFmaxlon = -10;
+
+//South Africa
+var SFminlat = -30;
+var SFmaxlat = -10;
+var SFminlon = 20;
+var SFmaxlon = 40;
+</pre>
