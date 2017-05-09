@@ -9,7 +9,7 @@ var maxlat = 30;
 var minlon = -145;
 var maxlon = -120;
 </pre>
-␣
+==
 
 
 ## Access to data
