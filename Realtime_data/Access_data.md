@@ -79,10 +79,12 @@ var tooltipBoat = d3.select("svg")
 .classed("tooltipBoat", true);
 </pre>
 
+<br />
 
 The orange(#e47a33) dots represent fishing vessel and green(#018771) dots represent other types of vessel.
 ![North America](http://i.imgur.com/zlOYGiz.png)
 
+<br />
 
 You can apply the region setting to different areas in the globe. I list some areas below:
 <pre>
