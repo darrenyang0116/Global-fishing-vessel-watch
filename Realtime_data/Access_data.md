@@ -149,3 +149,5 @@ var SFmaxlat = -10;
 var SFminlon = 20;
 var SFmaxlon = 40;
 </pre>
+
+![Worldmap](http://i.imgur.com/hgLWzsy.png)
