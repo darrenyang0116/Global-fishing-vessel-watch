@@ -1,7 +1,11 @@
 In the [previous step](Access_data), we have learned how to get access to data points from [My Ship Tracking](http://www.myshiptracking.com/) and draw vessel locations. In this step, I will teach you how to animate the data point by [D3](https://d3js.org) when clicking countries.
 
 ## D3 transition
-D3 enables us to easily visual animate elements in the worldmap. In our case, I want users to be able to click country and see where are the location of its vessels. Let's take USA for example:
+D3 enables us to easily visual animate elements in the worldmap. In our case, I want users to be able to click country and see where are the location of its vessels. Let's take USA for example.
+
+<br />
+
+Add style the vessel 
 <pre>
 if (d.properties.name == "USA"){
 	g.selectAll("circle.USA")
@@ -18,6 +22,7 @@ if (d.properties.name == "USA"){
 		if (d.TYPE == 10){return "1"} 
 		else {return ".15"}
 		})
+</pre>
 	.transition()
 	.duration(100)
 	.attr("r", 5)
