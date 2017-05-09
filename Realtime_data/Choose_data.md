@@ -12,13 +12,16 @@ Other ocean datasets that are less relevant to vessel location.
 * [Ocean Health Index](http://www.oceanhealthindex.org/)
 * [Ocean Biogeographic Information System](http://www.iobis.org)
 
-<br>
+<br />
 
 Ideally, I would like to use the dataset from [Marine Traffic](https://www.marinetraffic.com/), because it provides the most data points among the candidates. However, it costs a lot of money if I need access to a completed set of data.  
 ![Marine Traffic](http://i.imgur.com/io9AhNT.jpg)
 
+<br />
 
 I ended up choosing [My Ship Tracking](http://www.myshiptracking.com/). This website provides certain amount of vessels ducking in the ports. Although this is not the most ideal dataset I was looking for, I can still use it to demonstrate how to build a website that visualizes the real-time vessel locations.
 ![My Ship Tracking](http://i.imgur.com/kOr0TJp.png)
+
+<br />
 
 [Next step](Access_data.md), we will learn how to get access to data from My Ship Tracking.
