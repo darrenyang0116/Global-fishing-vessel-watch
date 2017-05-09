@@ -10,4 +10,4 @@ While some websites, like [Global Fishing Watch](http://globalfishingwatch.org/)
 
 <br />
 
-In the [next step](http://globalfishingwatch.org/), I will show some early sketches of how I envision the data visualizations look like. 
+I would like to share some [early sketches](Quick_sketches.md) of how I envision the data visualizations look like. 
