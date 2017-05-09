@@ -15,14 +15,15 @@ var maxlon = -120;
 ## Access to data
 The site constructs data requests like this:
 <pre>
-http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=10&maxlat=30&minlon=-145&maxlon=-125&zoom=7
+http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=10&maxlat=30&minlon=
+-145&maxlon=-125&zoom=7
 </pre>
 
 Use above request in our code to draw vessel.
 <pre>
 //Undocumented API Notes
-//d.MMSI = Unique Identifier with Embedded Country (https://help.marinetraffic.com/hc/en-us/articles/205220087-Which-
-way-is-information-on-a-vessel-s-flag-found-)
+//d.MMSI = Unique Identifier with Embedded Country (https://help.marinetraffic.com/hc/en-us/
+articles/205220087-Which-way-is-information-on-a-vessel-s-flag-found-)
 //d.NAME = Vessel Name
 //d.SOG = Speed in Knots
 //d.COG = Heading in Clockwise Degrees (0 = North; 90 = West...)
@@ -33,8 +34,8 @@ way-is-information-on-a-vessel-s-flag-found-)
 //d.ARV = Projected Arrival Time, 201704272230 is 10:30PM on April 27, 2017 GMT
 
 //Draw real-time vessel
-d3.json("http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=" + minlat + "&maxlat=
-" + maxlat + "&minlon=" + minlon + "&maxlon=" + maxlon + "&zoom=7", function(err, boats){
+d3.json("http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=" + minlat +
+"&maxlat=" + maxlat + "&minlon=" + minlon + "&maxlon=" + maxlon + "&zoom=7", function(err, boats){
 	console.log(boats)
 	g.selectAll("circle.vessel")
 	.data(boats[0].DATA)
