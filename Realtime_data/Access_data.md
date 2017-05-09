@@ -21,7 +21,8 @@ http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=10&maxl
 Use above request in our code to draw vessel.
 <pre>
 //Undocumented API Notes
-//d.MMSI = Unique Identifier with Embedded Country (https://help.marinetraffic.com/hc/en-us/articles/205220087-Which-way-is-information-on-a-vessel-s-flag-found-)
+//d.MMSI = Unique Identifier with Embedded Country (https://help.marinetraffic.com/hc/en-us/articles/205220087-Which-
+way-is-information-on-a-vessel-s-flag-found-)
 //d.NAME = Vessel Name
 //d.SOG = Speed in Knots
 //d.COG = Heading in Clockwise Degrees (0 = North; 90 = West...)
@@ -46,7 +47,8 @@ d3.json("http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minla
 	.classed("vessel", true)
 	.attr("class", function(d){
 		var mmsi = d.MMSI;  var countrycode = mmsi.slice(0,3);
-		if ((countrycode == 303) || (countrycode == 338) || (countrycode >= 366 && countrycode <= 369)) {return "USA" }
+		if ((countrycode == 303) || (countrycode == 338) || (countrycode >= 366 && countrycode <= 369))
+		   {return "USA" }
 		else{return countrycode}
 		})
 	.on("mouseover", function(d){
@@ -150,4 +152,6 @@ var SFminlon = 20;
 var SFmaxlon = 40;
 </pre>
 
+
+The look of\
 ![Worldmap](http://i.imgur.com/hgLWzsy.png)
