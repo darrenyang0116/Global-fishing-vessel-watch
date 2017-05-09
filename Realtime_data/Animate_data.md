@@ -108,3 +108,6 @@ d3.json("worldmap.json", function(error, geojson) {
 	
 </pre>
 
+<br />
+
+![mouseclick](http://i.imgur.com/JIvuDL9.png)
