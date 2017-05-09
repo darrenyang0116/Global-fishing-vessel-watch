@@ -9,4 +9,4 @@ In order to raise the awareness of global illegal fishing activities and provide
 While some websites, like [Global Fishing Watch](http://globalfishingwatch.org/), have provided broad dataset of near-real time fishing vessel location on the ocean, this website solely focuses on data-visualization of suspicious fishing activity in No-take zone to help general audience monitoring illegal fishing activities. 
 
 <br />
-In the [next step](), I will show some early sketches of how I envision the data visualizations look like. 
+In the [Global Fishing Watch](http://globalfishingwatch.org/), I will show some early sketches of how I envision the data visualizations look like. 
