@@ -24,4 +24,4 @@ I ended up choosing [My Ship Tracking](http://www.myshiptracking.com/). This web
 
 <br />
 
-[Next step](Access_data.md), we will learn how to get access to data from My Ship Tracking.
+[Next step](Access_data.md), we will learn how to get access to the data from My Ship Tracking.
