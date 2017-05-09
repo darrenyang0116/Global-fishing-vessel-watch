@@ -19,7 +19,9 @@ http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=10&maxl
 -145&maxlon=-125&zoom=7
 </pre>
 
-<p>Use above request in our code to draw vessel.</p>
+<hr />
+
+Use above request in our code to draw vessel.
 <pre>
 //Undocumented API Notes
 //d.MMSI = Unique Identifier with Embedded Country (https://help.marinetraffic.com/hc/en-us/
