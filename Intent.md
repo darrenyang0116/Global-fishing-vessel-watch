@@ -10,4 +10,4 @@ While some websites, like [Global Fishing Watch](http://globalfishingwatch.org/)
 
 <br />
 
-I would like to share some [early sketches](Quick_sketches.md) of how I envision the data visualizations look like. 
+Before directly jumping into building a website, I would recommend you to sketch out some concepts and discuss with your target audience. Here are some of my [early sketches](Quick_sketches.md).
