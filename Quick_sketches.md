@@ -22,3 +22,5 @@ This map shows the number of suspicious operationg in No-take zone in a given pe
 <br />
 
 In the next step, I will explain the detail about how to [create a worldmap](Create_map).  
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/0SswD"><a href="//imgur.com/0SswD"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
