@@ -157,6 +157,7 @@ var SFminlon = 20;
 var SFmaxlon = 40;
 </pre>
 
+<br />
 
 The result of vessel location visualization\
 ![Worldmap](http://i.imgur.com/hgLWzsy.png)
