@@ -43,7 +43,11 @@ d3.json("worldmap.json", function(error, geojson) {
 		.attr("fill-opacity","0") //hide text
 		})
 </pre>
-User is able to see country changing color from blue to white when mouseover
+
+<br />
+
+User is able to see country changing color from blue to white when mouseover.
+
 ![Mouseover](http://i.imgur.com/s0b26eW.png)
 
 <br />
