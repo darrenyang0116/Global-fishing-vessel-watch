@@ -113,6 +113,6 @@ User is able to see country changing color from blue to white when mouseover.
 </pre>
 
 <br />
-User is able to see country and vessel change color when clicking.
+User is able to see country and vessel changing color when clicking.
 
 ![mouseclick](http://i.imgur.com/JIvuDL9.png)
