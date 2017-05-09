@@ -2,6 +2,7 @@ In the [previous step](Choose_data.md), we choose [My Ship Tracking](http://www.
 
 ## Region setting
 We can construct queries with a latlong bounding box, but it will return null if the bounding box exceeds ~20 degrees each of latitude and longitude. Let's use the west coast of USA for example.
+
 <pre>
 var minlat = 10;
 var maxlat = 30;
@@ -72,5 +73,7 @@ var tooltipBoat = d3.select("svg")
 .classed("tooltipBoat", true);
 </pre>
 
+
 The orange(#e47a33) dots represent fishing vessel and green dots represent other types of vessel.
 ![North America](http://i.imgur.com/zlOYGiz.png)
+
