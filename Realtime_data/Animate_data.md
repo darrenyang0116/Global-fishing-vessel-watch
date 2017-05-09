@@ -119,11 +119,4 @@ User is able to see country and vessel changing color when clicking.
 
 <br />
 
-This is the final look of our data visualization
-[Imgur](http://i.imgur.com/UdgOCal.gifv)
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="UdgOCal"><a href="//imgur.com/UdgOCal">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
-[imgur](http://imgur.com/UdgOCal)
-
-[img]http://i.imgur.com/UdgOCal.gif[/img]
+This is the [final animation](http://i.imgur.com/UdgOCal.gifv) of our data visualization
