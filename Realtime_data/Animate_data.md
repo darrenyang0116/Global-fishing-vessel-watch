@@ -119,4 +119,4 @@ User is able to see country and vessel changing color when clicking.
 
 <br />
 
-This is the [final animation](http://i.imgur.com/UdgOCal.gifv) of our data visualization
+This is the [final animation](http://i.imgur.com/UdgOCal.gifv) of our data visualization.
