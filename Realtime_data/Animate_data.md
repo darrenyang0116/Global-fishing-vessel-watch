@@ -5,7 +5,8 @@ D3 enables us to easily visual animate elements in the worldmap. In our case, I 
 
 <br />
 
-Add style the vessel 
+Remember how do we [draw the worldmap]()? in the Add style the vessel 
+
 <pre>
 if (d.properties.name == "USA"){
 	g.selectAll("circle.USA")
