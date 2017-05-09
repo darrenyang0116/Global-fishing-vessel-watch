@@ -19,7 +19,7 @@ http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=10&maxl
 -145&maxlon=-125&zoom=7
 </pre>
 
-<hr />
+<br />
 
 Use above request in our code to draw vessel.
 <pre>
