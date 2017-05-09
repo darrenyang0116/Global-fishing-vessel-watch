@@ -1,6 +1,6 @@
 In the [previous step](Choose_data.md), we choose [My Ship Tracking](http://www.myshiptracking.com/) to pull in our dataset. Now we need to get access to the dataset and use in our code.
 
-## Region setting
+# Region setting
 We can construct queries with a latlong bounding box, but it will return null if the bounding box exceeds ~20 degrees each of latitude and longitude. Let's use the west coast of USA for example.
 
 <pre>
@@ -9,7 +9,7 @@ var maxlat = 30;
 var minlon = -145;
 var maxlon = -120;
 </pre>
-==
+
 
 
 ## Access to data
