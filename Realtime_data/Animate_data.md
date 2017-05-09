@@ -7,6 +7,14 @@ D3 enables us to easily visual animate elements in the worldmap. In our case, I 
 
 Do you remember how we [drew the worldmap](https://github.com/darrenyang0116/Global-fishing-vessel-watch/blob/master/Create_map/D3.md) in the previous step? We are going to add mroe lines of code under it, so when users click any country, thry are able to see its vessel location.
 
+## Add CSS style to country and text
+<pre>
+   .country:hover{fill:white; stroke:#fff; stroke-width:.25px; opacity:.2;}
+   .country{fill:#0B121F; opacity:0.45; stroke:#203a53; stroke-width:1.5px;}
+   #cSelected{fill:#0B121F; opacity:0.8; stroke:#537483; stroke-width:2px;}
+   text.tooltip {fill:white; font-family: frutiger; font-size: 12px;}  
+</pre>
+
 ## Add country text when mouseover
 <pre>
 d3.json("worldmap.json", function(error, geojson) {
@@ -34,14 +42,9 @@ d3.json("worldmap.json", function(error, geojson) {
 		})
 </pre>
 
-## Add CSS style to country and text
-<pre>
-   .country:hover{fill:white; stroke:#fff; stroke-width:.25px; opacity:.2;}
-   .country{fill:#0B121F; opacity:0.45; stroke:#203a53; stroke-width:1.5px;}
-   #cSelected{fill:#0B121F; opacity:0.8; stroke:#537483; stroke-width:2px;}
-   text.tooltip {fill:white; font-family: frutiger; font-size: 12px;}  
-</pre>
+![Mouseover]http://i.imgur.com/s0b26eW.png
 
+<br />
 
 ## Show vessel location when clicking country
 <pre>
