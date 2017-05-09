@@ -66,4 +66,4 @@ Black is not very appealing in the map. I added different color in CSS style to 
 </pre>
 ![result 2](http://i.imgur.com/CRJzi6M.png)
 
-The [next step](Realtime_data) is to add real-time vessel location to our map.
+The [next step](https://github.com/darrenyang0116/Global-fishing-vessel-watch/tree/master/Realtime_data) is to add real-time vessel location to our map.
