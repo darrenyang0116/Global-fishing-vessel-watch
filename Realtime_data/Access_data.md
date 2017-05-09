@@ -30,7 +30,8 @@ Use above request in our code to draw vessel.
 //d.ARV = Projected Arrival Time, 201704272230 is 10:30PM on April 27, 2017 GMT
 
 //Draw real-time vessel
-d3.json("http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=" + minlat + "&maxlat=" + maxlat + "&minlon=" + minlon + "&maxlon=" + maxlon + "&zoom=7", function(err, boats){
+d3.json("http://www.myshiptracking.com/requests/vesselsonmap.php?type=json&minlat=" + minlat + "&maxlat=
+" + maxlat + "&minlon=" + minlon + "&maxlon=" + maxlon + "&zoom=7", function(err, boats){
 	console.log(boats)
 	g.selectAll("circle.vessel")
 	.data(boats[0].DATA)
@@ -71,4 +72,5 @@ var tooltipBoat = d3.select("svg")
 .classed("tooltipBoat", true);
 </pre>
 
+The orange(#e47a33) dots represent fishing vessel and green dots represent other types of vessel.
 ![North America](http://i.imgur.com/zlOYGiz.png)
