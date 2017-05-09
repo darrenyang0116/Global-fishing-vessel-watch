@@ -50,10 +50,14 @@ d3.json("worldmap.json", function(error, geojson) {
 
 ## Show vessel location when clicking country
 <pre>
-//change color by changing class ".country" to id "#cSelected" when click
+
 	.on("click", function(d){
+	
+	//change color by changing class ".country" to id "#cSelected" when click
 		g.selectAll("#cSelected")
-		.attr("id","unSelected"); // because "unSelected" is not defined, so it will go back to default class "country"
+	
+	//because "unSelected" is not defined, so it will go back to default class "country"
+		.attr("id","unSelected"); 
 		this.setAttribute('id', 'cSelected');
 		if (d.properties.name == "USA"){
 			g.selectAll("circle.USA")
@@ -70,37 +74,37 @@ d3.json("worldmap.json", function(error, geojson) {
 				if (d.TYPE == 10){return "1"} 
 				else {return ".15"}
 				})
-</pre>
-	.transition()
-	.duration(100)
-	.attr("r", 5)
-	.transition()
-	.duration(100)
-	.attr("r", function(d){
-		if (d.TYPE == 10){return "3"} 
-		else {return "3"}
-		})
-}      		
-else{
-	g.selectAll("circle.USA")
-	.style("fill-opacity",function(d){
-		if (d.TYPE==10) {return ".15"} 
-		else {return ".05"}
-		})	 
-	.style("stroke-width", 0)
-}
 
-            });
-
-
-			var tooltip = d3.select("g")
-							.append("text")
-							.attr("fill-opacity", "0")
-							.text("tooltip!")
-							.classed("tooltip",true)
-							;
+			.transition()
+			.duration(100)
+			.attr("r", 5)
+			.transition()
+			.duration(100)
+			.attr("r", function(d){
+				if (d.TYPE == 10){return "3"} 
+				else {return "3"}
+				})
+		}      		
+		else{	
+			g.selectAll("circle.USA")
+			.style("fill-opacity",function(d){
+				if (d.TYPE==10) {return ".15"} 
+				else {return ".05"}
+				})	 
+			.style("stroke-width", 0)
+		}
 
 	});
+
+
+	var tooltip = d3.select("g")
+		.append("text")
+		.attr("fill-opacity", "0")
+		.text("tooltip!")
+		.classed("tooltip",true)
+		;
+
+});
 	
 </pre>
 
